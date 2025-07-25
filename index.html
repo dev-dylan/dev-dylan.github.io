@@ -1,26 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
   <!-- 必填标签：网页基础信息 -->
-<meta property="og:title" content="测试内容 123">
-<meta property="og:description" content="页面描述">
-<meta property="og:image" content="https://cdn.pixabay.com/photo/2015/10/01/19/05/car-967470_1280.png"> <!-- 图片的 HTTPS 绝对路径 -->
-<meta property="og:url" content="https://github.com">
+  <meta property="og:title" content="CallApp 应用唤起工具">
+  <meta property="og:description" content="一键唤起手机应用，支持 iOS 和 Android 平台，智能检测设备环境并提供下载功能">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1200&h=630&fit=crop&crop=center">
+  <meta property="og:url" content="https://dev-dylan.github.io/">
+  
+  <!-- 优化预览体验 -->
+  <meta property="og:type" content="website">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="CallApp 应用唤起工具 - 智能唤起手机应用">
+  
+  <!-- Twitter 卡片支持 -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CallApp 应用唤起工具">
+  <meta name="twitter:description" content="一键唤起手机应用，支持 iOS 和 Android 平台">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1200&h=630&fit=crop&crop=center">
+  
+  <!-- iMessage 优化 -->
+  <meta property="og:site_name" content="CallApp Tools">
+  <meta name="description" content="一键唤起手机应用，支持 iOS 和 Android 平台，智能检测设备环境并提供下载功能">
+  <meta name="robots" content="index,follow">
+  
+  <!-- 确保图片加载 -->
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1200&h=630&fit=crop&crop=center">
 
-<!-- 建议补充：优化预览体验 -->
-<meta property="og:type" content="website"> <!-- 类型如 article、video 等 -->
-<meta property="og:image:width" content="297"> <!-- 建议宽度≥1200px -->
-<meta property="og:image:height" content="435"> <!-- 建议比例 1.91:1 -->
-<meta name="twitter:card" content="summary_large_image"> <!-- 兼容 Twitter 卡片 -->
-
-  <title>callapp-lib源码解析1111111</title>
+  <title>CallApp 应用唤起工具</title>
   
 </head>
 <body>
-  <button id='btn''>点击打开/下载11111app</button>
+  <button id='btn'>点击打开/下载应用</button>
  
   <script>
     let iosOpenUrl='sabc98affa://sensorsdata/sd/JOO/E0ijX1';
